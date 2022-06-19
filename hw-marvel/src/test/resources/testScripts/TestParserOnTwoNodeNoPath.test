@@ -1,0 +1,9 @@
+# Test the parser on TwoNodeNoPath data to see if the graph is built correctly
+
+# Parse through the data and build the graph
+LoadGraph TwoNodeNoPath TwoNodeNoPath.tsv
+
+# List nodes and edges to see if the graph is built correctly
+ListNodes TwoNodeNoPath
+ListChildren TwoNodeNoPath NodeA
+ListChildren TwoNodeNoPath NodeB

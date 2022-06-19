@@ -1,0 +1,9 @@
+# Test the parser on TwoNodeNoPath data to see if the graph is built correctly
+
+# Parse through the data and build the graph
+loaded graph TwoNodeNoPath
+
+# List nodes and edges to see if the graph is built correctly
+TwoNodeNoPath contains: NodeA NodeB
+the children of NodeA in TwoNodeNoPath are:
+the children of NodeB in TwoNodeNoPath are: 

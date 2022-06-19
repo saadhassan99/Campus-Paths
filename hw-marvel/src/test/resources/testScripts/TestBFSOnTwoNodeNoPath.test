@@ -1,0 +1,12 @@
+# Test BFS on TwoNodeNoPath graph
+
+# build the graph
+LoadGraph TwoNodeNoPath TwoNodeNoPath.tsv
+
+# test BFS order
+
+# find the shortest path NodeA to NodeB
+FindPath TwoNodeNoPath NodeA NodeB
+
+# find the shortest path NodeB to NodeA
+FindPath TwoNodeNoPath NodeB NodeA

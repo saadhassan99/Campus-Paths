@@ -1,0 +1,11 @@
+# test Parser on ReflexiveEdge data to make sure MarvelPath 
+# doesn't allow building reflexive edges
+
+# Parse through the data and build the graph
+LoadGraph ReflexiveEdge ReflexiveEdge.tsv
+
+# List nodes and edges to see if the graph is built correctly
+ListNodes ReflexiveEdge
+ListChildren ReflexiveEdge A
+ListChildren ReflexiveEdge B
+ListChildren ReflexiveEdge C

@@ -1,0 +1,14 @@
+# Test BFS on TwoNodeNoPath graph
+
+# build the graph
+loaded graph TwoNodeNoPath
+
+# test BFS order
+
+# find the shortest path NodeA to NodeB
+path from NodeA to NodeB:
+no path found
+
+# find the shortest path NodeB to NodeA
+path from NodeB to NodeA:
+no path found

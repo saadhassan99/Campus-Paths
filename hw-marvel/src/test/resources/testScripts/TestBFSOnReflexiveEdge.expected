@@ -1,0 +1,20 @@
+# test BFS on ReflexiveEdge data to make sure MarvelPath 
+# doesn't allow building reflexive edges
+
+# build the graph
+loaded graph ReflexiveEdge
+
+# test BFS order
+
+# find the shortest path A to C
+path from A to C:
+A to B via AB
+B to C via BC
+
+# find the shortest path C to A
+path from C to A:
+C to B via BC
+B to A via AB
+
+# find the shortest path A to A
+path from A to A:

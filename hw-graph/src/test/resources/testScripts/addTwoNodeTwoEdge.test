@@ -1,0 +1,19 @@
+# Tests adding two nodes and two edges
+# of reverse direction to the graph
+
+# Create a graph
+CreateGraph two_nodes_two_edges_graph
+
+# Add two nodes
+AddNode two_nodes_two_edges_graph a
+AddNode two_nodes_two_edges_graph b
+
+# Add two edges (reverse direction of each other)
+AddEdge two_nodes_two_edges_graph a b AB
+AddEdge two_nodes_two_edges_graph b a BA
+
+# Print the nodes in the graph, the outgoing edges from a, 
+# and outgoing edges from b
+ListNodes two_nodes_two_edges_graph
+ListChildren two_nodes_two_edges_graph a
+ListChildren two_nodes_two_edges_graph b

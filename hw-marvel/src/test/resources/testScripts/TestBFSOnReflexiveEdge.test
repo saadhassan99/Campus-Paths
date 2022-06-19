@@ -1,0 +1,16 @@
+# test BFS on ReflexiveEdge data to make sure MarvelPath 
+# doesn't allow building reflexive edges
+
+# build the graph
+LoadGraph ReflexiveEdge ReflexiveEdge.tsv
+
+# test BFS order
+
+# find the shortest path A to C
+FindPath ReflexiveEdge A C
+
+# find the shortest path C to A
+FindPath ReflexiveEdge C A
+
+# find the shortest path A to A
+FindPath ReflexiveEdge A A

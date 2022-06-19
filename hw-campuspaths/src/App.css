@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+#SearchBar {
+    display: inline-grid;
+    align-items: center;
+}
+
+.formBox > input {
+     padding: 10px;
+     margin-left: 20px;
+     margin-bottom: 5px;
+     outline-width: 0;
+     background-color: #eff2f5;
+     border-radius: 10px;
+     border: none;
+ }
+
+.formBox > button {
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background-color: gold;
+    border-radius: 5px;
+    width: 40%;
+    display: inline;
+}
+
+.app__body {
+    display: flex;
+    margin-top: 30px;
+}
+
+.searchForm {
+    margin-right: 10px;
+}

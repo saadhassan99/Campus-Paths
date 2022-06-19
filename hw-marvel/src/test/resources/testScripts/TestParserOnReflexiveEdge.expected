@@ -1,0 +1,11 @@
+# test Parser on ReflexiveEdge data to make sure MarvelPath 
+# doesn't allow building reflexive edges
+
+# Parse through the data and build the graph
+loaded graph ReflexiveEdge
+
+# List nodes and edges to see if the graph is built correctly
+ReflexiveEdge contains: A B C
+the children of A in ReflexiveEdge are: B(AB)
+the children of B in ReflexiveEdge are: A(AB) C(BC)
+the children of C in ReflexiveEdge are: B(BC)
